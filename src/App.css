@@ -1,38 +1,28 @@
-.App {
-  text-align: center;
+.react-kanban-column {
+    border-radius: 8px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.react-kanban-column:first-child {
+    background: #5659D6; 
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.react-kanban-column:nth-child(2) {
+    background: #F2AE53 
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.react-kanban-column:nth-child(3) {
+    background: #19BABE;
 }
 
-.App-link {
-  color: #61dafb;
+.react-kanban-column:nth-child(4) {
+    background: #5AC57D;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.react-kanban-column-header {
+    color: #fff;
+}
+
+
+.react-kanban-card {
+    border-radius: 8px;
 }
